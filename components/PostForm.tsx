@@ -31,9 +31,7 @@ function PostForm() {
             await createPostAction(formDataCopy);
         } catch (error) {
             console.log("error creating post:", error);
-
         }
-
     }
 
     const handleImageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
