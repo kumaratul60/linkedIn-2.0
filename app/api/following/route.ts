@@ -18,8 +18,7 @@ export async function GET(request: Request) {
         }
 
         const followers = await Followers.getAllFollowing(user_id);
-        console.log(followers, ":: get all followings");
-        
+
         if (!followers) {
             return NextResponse.json({ error: "User not found" }, { status: 404 });
         }

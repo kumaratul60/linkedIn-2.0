@@ -11,7 +11,6 @@ export async function GET(
 
     try {
         const post = await Post.findById(params?.post_id);
-        console.log(post,"::get post findebyId");
         if (!post) {
             return NextResponse.json({ error: "Post not found" }, { status: 404 });
         }
@@ -40,7 +39,6 @@ export async function DELETE(
 
     try {
         const post = await Post.findById(params.post_id);
-        console.log(post, "::delete post findebyId");
 
         if (!post) {
             return NextResponse.json({ error: "Post not found" }, { status: 404 });

@@ -6,12 +6,6 @@ async function uploadImageToVercel(image: any) {
     const formData: any = new FormData();
     formData.append('file', image);
     formData.append('storageName', process.env.BLOB_STORAGE_NAME);
-    console.log(formData, "::formData");
-
-    // const response = await fetch(`https://api.vercel.com/v2/blob/create?access_token=${process.env.BLOB_READ_WRITE_TOKEN}`, {
-    //     method: 'POST',
-    //     body: formData,
-    // });
 
     const response = await fetch(`https://api.vercel.com/v2/blob/create`, {
         method: 'POST',
@@ -27,9 +21,6 @@ async function uploadImageToVercel(image: any) {
     }
 
     const data = await response.json();
-
-    // console.log(response, "::response");
-    console.log(data, ":::data");
 
     return data?.url;
 }

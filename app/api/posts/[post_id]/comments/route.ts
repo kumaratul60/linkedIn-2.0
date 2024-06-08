@@ -18,7 +18,6 @@ export async function GET(
         }
 
         const comments = await post.getAllComments();
-        console.log(comments, "::posts comments");
 
         return NextResponse.json(comments);
     } catch (error) {
