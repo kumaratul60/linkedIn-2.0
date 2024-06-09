@@ -37,7 +37,7 @@ Statistics Display: Implemented dynamic statistics in the user interface, showca
  5. Share link of post
  6. Save the post
  7. tag user in the post and commment as well
- 8. multiple emogy on like based on post 
+ 8. multiple emoji on like based on post 
 
 
 
