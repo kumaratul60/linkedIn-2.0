@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![wakatime](https://wakatime.com/badge/user/1499525d-7f42-4e3a-b9c6-fbf14aa13712/project/e3e6d27b-7d87-42fc-acc2-88c6697f802e.svg)](https://wakatime.com/badge/user/1499525d-7f42-4e3a-b9c6-fbf14aa13712/project/e3e6d27b-7d87-42fc-acc2-88c6697f802e)
 
 ## Getting Started
 
@@ -13,6 +13,33 @@ pnpm dev
 # or
 bun dev
 ```
+
+# Features:
+
+Responsive UI Implementation: Developed a LinkedIn-type user interface using Next.js and Tailwind CSS, ensuring cross-device compatibility and a seamless user experience across desktops, tablets, and smartphones.
+
+Comprehensive User Interaction: Integrated advanced user interaction features, including authentication via Clerk, allowing users to create, like/unlike posts, and comment on posts, regardless of the original author.
+
+Database Management: Utilized MongoDB for efficient data storage and retrieval, ensuring scalability and performance for handling numerous posts and comments.
+
+Feature-Rich Functionality: Enabled users to manage their content with features like post creation, comment functionality, and user-specific post deletion, enhancing the control and personalization of user profiles.
+
+Deployment and Hosting: Deployed the application on Vercel, leveraging its serverless architecture for robust, scalable, and efficient hosting.
+
+Statistics Display: Implemented dynamic statistics in the user interface, showcasing the total number of comments and posts created by the logged-in user, enhancing user engagement and activity tracking.
+
+ # Upcoming features
+
+ 1. Post with Image
+ 2. Widgets on right side
+ 3. Latest tech news on left side
+ 4. Nested commnets
+ 5. Share link of post
+ 6. Save the post
+ 7. tag user in the post and commment as well
+ 8. multiple emogy on like based on post 
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
